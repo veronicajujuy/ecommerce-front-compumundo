@@ -1,0 +1,66 @@
+[
+  {
+    "id": "e1b1c119-5e47-42e9-9364-6a1c9f49ac27",
+    "name": "GeForce RTX 4090",
+    "description": "Feel the best experience with this....",
+    "cores": "16384",
+    "boostClock": "2.52",
+    "baseClock": "2.23",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHFoEsE8XD6rX2fmIUSUOfTgPZt0LoOVjveuLyUUHpPEtgWs-8V0XyQMzfo1R_xzLgzWg&usqp=CAU",
+    "standardMemory": {
+      "type": "GDDR6X",
+      "size": "24 GB",
+      "interfaceWidth": "384 bits"
+    },
+    "stock": 2,
+    "price": "750"
+  },
+  {
+    "id": "8b5daddf-3d8b-4e9f-8f59-8b08a162d98d",
+    "name": "GeForce RTX 4090",
+    "description": "Feel the best experience with this....",
+    "cores": "16384",
+    "boostClock": "2.52",
+    "baseClock": "2.23",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHFoEsE8XD6rX2fmIUSUOfTgPZt0LoOVjveuLyUUHpPEtgWs-8V0XyQMzfo1R_xzLgzWg&usqp=CAU",
+    "standardMemory": {
+      "type": "GDDR6X",
+      "size": "24 GB",
+      "interfaceWidth": "384 bits"
+    },
+    "stock": 2,
+    "price": "750"
+  },
+  {
+    "id": "f3cf4e5a-507e-4b85-8121-7ce6aa4f8f7f",
+    "name": "GeForce RTX 4090",
+    "description": "Feel the best experience with this....",
+    "cores": "16384",
+    "boostClock": "2.52",
+    "baseClock": "2.23",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHFoEsE8XD6rX2fmIUSUOfTgPZt0LoOVjveuLyUUHpPEtgWs-8V0XyQMzfo1R_xzLgzWg&usqp=CAU",
+    "standardMemory": {
+      "type": "GDDR6X",
+      "size": "24 GB",
+      "interfaceWidth": "384 bits"
+    },
+    "stock": 2,
+    "price": "750"
+  },
+  {
+    "id": "19e55644-4baf-4712-89c7-3c7dbbb414c5",
+    "name": "GeForce RTX 4090",
+    "description": "Feel the best experience with this....",
+    "cores": "16384",
+    "boostClock": "2.52",
+    "baseClock": "2.23",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHFoEsE8XD6rX2fmIUSUOfTgPZt0LoOVjveuLyUUHpPEtgWs-8V0XyQMzfo1R_xzLgzWg&usqp=CAU",
+    "standardMemory": {
+      "type": "GDDR6X",
+      "size": "24 GB",
+      "interfaceWidth": "384 bits"
+    },
+    "stock": 2,
+    "price": "750"
+  }
+]

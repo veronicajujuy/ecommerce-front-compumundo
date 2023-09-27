@@ -1,0 +1,58 @@
+[
+  {
+    "id": "7b9891f3-90d3-4f5d-8654-2cc0791aa3c2",
+    "name": "GeForce RTX 4090",
+    "price": "750",
+    "offerPrice": "700",
+    "img": "https://i.blogs.es/59bfa7/nvidiageforcertx4090-ap/1366_2000.jpeg"
+  },
+  {
+    "id": "2a6c0c87-26f7-4ef0-a18b-8df8aa1e1a5e",
+    "name": "AMD Radeon RX 6800 XT",
+    "price": "650",
+    "offerPrice": "620",
+    "img": "https://m.media-amazon.com/images/I/81c3PiQLBUL.jpg"
+  },
+  {
+    "id": "4b7ef1c8-43b9-48ef-8b5c-70bfbe2c8f87",
+    "name": "NVIDIA GeForce GTX 3080",
+    "price": "800",
+    "offerPrice": "770",
+    "img": "https://images.start.com.ar/VDO0775.jpg"
+  },
+  {
+    "id": "c0d27b76-e296-4b7f-8c7f-725ae265d9f1",
+    "name": "AMD Radeon RX 6700 XT",
+    "price": "550",
+    "offerPrice": "520",
+    "img": "https://images.start.com.ar/VDO0775.jpg"
+  },
+  {
+    "id": "bbad54ea-7fe3-46c3-8a92-1e4a3a702c10",
+    "name": "NVIDIA GeForce RTX 3060",
+    "price": "400",
+    "offerPrice": "380",
+    "img": "https://app.contabilium.com/files/explorer/7026/Productos-Servicios/concepto-6896613.png"
+  },
+  {
+    "id": "e732b40e-7e3d-438d-b09f-5c198295afbe",
+    "name": "AMD Radeon RX 6600 XT",
+    "price": "470",
+    "offerPrice": "450",
+    "img": "https://asset.msi.com/resize/image/global/product/product_162761041853b534486be297dc55c4bc40ffe92b45.png62405b38c58fe0f07fcef2367d8a9ba1/600.png"
+  },
+  {
+    "id": "bbad54ea-7fe3-46c3-8a92-1e4a3a702c10",
+    "name": "NVIDIA GeForce RTX 3060",
+    "price": "400",
+    "offerPrice": "380",
+    "img": "https://app.contabilium.com/files/explorer/7026/Productos-Servicios/concepto-6896613.png"
+  },
+  {
+    "id": "e732b40e-7e3d-438d-b09f-5c198295afbe",
+    "name": "AMD Radeon RX 6600 XT",
+    "price": "470",
+    "offerPrice": "450",
+    "img": "https://asset.msi.com/resize/image/global/product/product_162761041853b534486be297dc55c4bc40ffe92b45.png62405b38c58fe0f07fcef2367d8a9ba1/600.png"
+  }
+]

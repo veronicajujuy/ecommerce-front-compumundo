@@ -1,0 +1,158 @@
+[
+  {
+    "id": "7b9891f3-90d3-4f5d-8654-2cc0791223c2",
+    "name": "AMD Ryzen™ 5 5600X",
+    "description": "Feel the best experience with this....",
+    "cores": "6",
+    "thread": "12",
+    "boostClock": "4.6",
+    "baseClock": "3.7",
+    "img": "https://www.tradeinn.com/f/13795/137954423/amd-ryzen-5-5600x-3.7ghz-cpu.jpg",
+    "cacheMemory": [
+      {
+        "level": "1",
+        "size": "384KB"
+      },
+      {
+        "level": "2",
+        "size": "3MB"
+      },
+      {
+        "level": "3",
+        "size": "32MB"
+      }
+    ],
+    "stock": 20,
+    "price": "290"
+  },
+  {
+    "id": "e256ea0a-16c7-4874-ba20-d3a44d8e362f",
+    "name": "AMD Ryzen™ 5 5600X",
+    "description": "Feel the best experience with this....",
+    "cores": "6",
+    "thread": "12",
+    "boostClock": "4.6",
+    "baseClock": "3.7",
+    "img": "https://www.tradeinn.com/f/13795/137954423/amd-ryzen-5-5600x-3.7ghz-cpu.jpg",
+    "cacheMemory": [
+      {
+        "level": "1",
+        "size": "384KB"
+      },
+      {
+        "level": "2",
+        "size": "3MB"
+      },
+      {
+        "level": "3",
+        "size": "32MB"
+      }
+    ],
+    "stock": 20,
+    "price": "290"
+  },
+  {
+    "id": "9e804eb2-6c64-4c6e-ae4a-71d8fb4d1d10",
+    "name": "AMD Ryzen™ 5 5600X",
+    "description": "Feel the best experience with this....",
+    "cores": "6",
+    "thread": "12",
+    "boostClock": "4.6",
+    "baseClock": "3.7",
+    "img": "https://www.tradeinn.com/f/13795/137954423/amd-ryzen-5-5600x-3.7ghz-cpu.jpg",
+    "cacheMemory": [
+      {
+        "level": "1",
+        "size": "384KB"
+      },
+      {
+        "level": "2",
+        "size": "3MB"
+      },
+      {
+        "level": "3",
+        "size": "32MB"
+      }
+    ],
+    "stock": 20,
+    "price": "290"
+  },
+  {
+    "id": "3f86cdab-87dd-4f46-bf9e-62e1c175fcf9",
+    "name": "AMD Ryzen™ 5 5600X",
+    "description": "Feel the best experience with this....",
+    "cores": "6",
+    "thread": "12",
+    "boostClock": "4.6",
+    "baseClock": "3.7",
+    "img": "https://www.tradeinn.com/f/13795/137954423/amd-ryzen-5-5600x-3.7ghz-cpu.jpg",
+    "cacheMemory": [
+      {
+        "level": "1",
+        "size": "384KB"
+      },
+      {
+        "level": "2",
+        "size": "3MB"
+      },
+      {
+        "level": "3",
+        "size": "32MB"
+      }
+    ],
+    "stock": 20,
+    "price": "290"
+  },
+  {
+    "id": "a7cf2e8d-35c8-4f88-9e2a-9e4fc8a31fb1",
+    "name": "AMD Ryzen™ 5 5600X",
+    "description": "Feel the best experience with this....",
+    "cores": "6",
+    "thread": "12",
+    "boostClock": "4.6",
+    "baseClock": "3.7",
+    "img": "https://www.tradeinn.com/f/13795/137954423/amd-ryzen-5-5600x-3.7ghz-cpu.jpg",
+    "cacheMemory": [
+      {
+        "level": "1",
+        "size": "384KB"
+      },
+      {
+        "level": "2",
+        "size": "3MB"
+      },
+      {
+        "level": "3",
+        "size": "32MB"
+      }
+    ],
+    "stock": 20,
+    "price": "290"
+  },
+  {
+    "id": "4d23db52-2c96-4cb3-8a84-6f92d076e5b7",
+    "name": "AMD Ryzen™ 5 5600X",
+    "description": "Feel the best experience with this....",
+    "cores": "6",
+    "thread": "12",
+    "boostClock": "4.6",
+    "baseClock": "3.7",
+    "img": "https://www.tradeinn.com/f/13795/137954423/amd-ryzen-5-5600x-3.7ghz-cpu.jpg",
+    "cacheMemory": [
+      {
+        "level": "1",
+        "size": "384KB"
+      },
+      {
+        "level": "2",
+        "size": "3MB"
+      },
+      {
+        "level": "3",
+        "size": "32MB"
+      }
+    ],
+    "stock": 20,
+    "price": "290"
+  }
+]

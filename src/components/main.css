@@ -1,0 +1,19 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0;
+}
+/* gris: #333536 
+    naranja: #ff3b30
+    gris2: #4c4d4e
+
+*/
+
+.container-main {
+  background-color: #4c4d4e;
+  color: #fff;
+}
+
+.imagen-banner {
+  width: 100%;
+}
