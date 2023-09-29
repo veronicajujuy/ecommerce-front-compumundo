@@ -20,7 +20,7 @@ function Ofertas() {
             <Carousel.Item key={groupIndex}>
               <div className="card-container">
                 {group.map((item) => (
-                  <ItemCards key={item.id} item={item} />
+                  <ItemCards key={item.id} item={item} offer={true} />
                 ))}
               </div>
             </Carousel.Item>

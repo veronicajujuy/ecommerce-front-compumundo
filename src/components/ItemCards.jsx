@@ -1,5 +1,6 @@
+/* eslint-disable react/prop-types */
 import "./ofertas.css";
-const ItemCards = ({ item }) => {
+const ItemCards = ({ item, offer }) => {
   return (
     <div className="card-offer" key={item.id}>
       <div className="card-image">
@@ -7,8 +8,13 @@ const ItemCards = ({ item }) => {
       </div>
       <div className="card-parag">
         <div>{item.name}</div>
-        <div className="price">${item.price}</div>
-        <div className="offer-price">${item.offerPrice}</div>
+        {offer ? (
+          <div className="price">${item.price}</div>
+        ) : (
+          <div>${item.price}</div>
+        )}
+
+        {offer ? <div className="offer-price">${item.offerPrice}</div> : null}
       </div>
     </div>
   );

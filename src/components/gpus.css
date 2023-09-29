@@ -1,0 +1,16 @@
+.section-container {
+  padding: 15px 25px 35px 25px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.color-container-1 {
+  background-color: #141718;
+}
+.color-container-2 {
+  background-color: #473499;
+}
