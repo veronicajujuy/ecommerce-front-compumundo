@@ -10,6 +10,7 @@ import Main from "./components/Main.jsx";
 import Login from "./components/Login.jsx";
 import AddItems from "./components/AddItems.jsx";
 import ProtectedRoutes from "./utils/ProtectedRoutes.jsx";
+import Logout from "./utils/Logout.js";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: "/login",
         element: <Login />,
+      },
+      {
+        path: "/logout",
+        element: <Logout />,
       },
       {
         element: <ProtectedRoutes />,
