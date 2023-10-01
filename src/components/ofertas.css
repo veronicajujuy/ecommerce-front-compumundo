@@ -1,7 +1,12 @@
+a {
+  text-decoration: none;
+}
 .offer-container {
   padding: 15px 25px 35px 25px;
 }
-
+.custom-brand {
+  margin-left: 150px; /* Ajusta el margen izquierdo según tus necesidades */
+}
 .card-container {
   display: flex;
   flex-wrap: wrap;
@@ -35,10 +40,24 @@
   padding: 15px;
   font-size: 16px;
 }
+.card-parag > div {
+  text-decoration: none;
+}
 .price {
   text-decoration-line: line-through;
 }
 
 .offer-price {
   font-weight: bold;
+}
+
+.imagen-logo {
+  position: fixed;
+  bottom: 15px;
+  right: 30px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  z-index: 10;
+  box-shadow: 5px 7px 15px 0px rgba(89, 19, 205, 1);
 }

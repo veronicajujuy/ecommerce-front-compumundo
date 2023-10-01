@@ -1,5 +1,7 @@
+/* eslint-disable react/jsx-key */
 /* eslint-disable react/prop-types */
 import ItemCards from "./ItemCards";
+import { Link } from "react-router-dom";
 import "./gpus.css";
 
 function ItemProduct({ product, productName }) {
@@ -12,7 +14,11 @@ function ItemProduct({ product, productName }) {
       <h1>{productName}</h1>
       <div className="cards-container">
         {product.map((item) => (
-          <ItemCards key={item.id} item={item} offer={false} />
+          <div key={item.id}>
+            <Link to={`products/${item.id}`}>
+              <ItemCards item={item} offer={false} />
+            </Link>
+          </div>
         ))}
       </div>
     </div>
