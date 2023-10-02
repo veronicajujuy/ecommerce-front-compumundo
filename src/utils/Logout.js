@@ -1,14 +1,14 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { useLocalStorage } from "react-use";
+import { useAuth } from "./AuthContext";
 
 const Logout = () => {
-  const [, setUser] = useLocalStorage("user");
+  const { logout } = useAuth();
   const navigate = useNavigate();
   useEffect(() => {
-    setUser(null);
+    logout();
     navigate("/");
-  }, [navigate, setUser]);
+  }, [navigate]);
   return null;
 };
 

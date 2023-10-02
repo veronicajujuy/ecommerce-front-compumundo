@@ -1,5 +1,5 @@
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .offer-container {
   padding: 15px 25px 35px 25px;

@@ -1,13 +1,14 @@
 /* eslint-disable react/prop-types */
 import { Navigate, Outlet } from "react-router-dom";
-import { useLocalStorage } from "react-use";
+import { useAuth } from "./AuthContext";
 
-const ProtectedRoutes = ({ redirectPath = "/" }) => {
-  const [user] = useLocalStorage("user");
+const ProtectedRoutes = () => {
+  const { user, isAdmin } = useAuth();
 
-  if (!user) {
-    return <Navigate to={redirectPath} replace />;
+  if (!user || !isAdmin) {
+    return <Navigate to="/" />;
   }
+
   return <Outlet />;
 };
 

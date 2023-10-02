@@ -1,7 +1,9 @@
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
-import * as yup from "yup";
 import { useNavigate } from "react-router-dom";
+import { useAuth } from "../utils/AuthContext";
+import "./login.css";
+import * as yup from "yup";
 
 const schema = yup
   .object({
@@ -12,6 +14,7 @@ const schema = yup
 
 const Login = () => {
   const navigate = useNavigate();
+  const { login } = useAuth();
   const {
     register,
     handleSubmit,
@@ -20,22 +23,32 @@ const Login = () => {
     resolver: yupResolver(schema),
   });
   const onSubmit = (data) => {
-    localStorage.setItem("user", JSON.stringify(data));
-    navigate("/products/addItem");
+    const user = {
+      ...data,
+      roles: ["admin"],
+    };
+
+    login(user, user.roles.includes("admin")); // Actualiza el estado de autenticación
+    navigate("/");
   };
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)}>
-      <label>Usuario </label>
-      <input {...register("userName")} />
-      <p>{errors.userName?.message}</p>
-
-      <label>Password </label>
-      <input {...register("password")} type="password" />
-      <p>{errors.password?.message}</p>
-
-      <input type="submit" />
-    </form>
+    <div className="container-form">
+      <form onSubmit={handleSubmit(onSubmit)} className="form-login">
+        <h2 className="title">Login</h2>
+        <div className="container-fields">
+          <label className="fields">Usuario </label>
+          <input {...register("userName")} />
+          <p className="errors">{errors.userName?.message}</p>
+        </div>
+        <div className="container-fields">
+          <label className="fields">Password </label>
+          <input {...register("password")} type="password" />
+          <p className="errors">{errors.password?.message}</p>
+        </div>
+        <input className="button" type="submit" />
+      </form>
+    </div>
   );
 };
 

@@ -6,8 +6,10 @@ import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
 import { Outlet } from "react-router-dom";
 import "./ofertas.css";
+import { useAuth } from "../utils/AuthContext";
 
 function Layout() {
+  const { user, isAdmin } = useAuth();
   return (
     <div>
       <Navbar
@@ -37,15 +39,21 @@ function Layout() {
               <Nav.Link as={Link} to="/">
                 Home
               </Nav.Link>
-              <Nav.Link as={Link} to="/products/addItem">
-                Añadir
-              </Nav.Link>
-              <Nav.Link as={Link} to="/login">
-                Login
-              </Nav.Link>
-              <Nav.Link as={Link} to="/logout">
-                Logout
-              </Nav.Link>
+              {isAdmin ? (
+                <Nav.Link as={Link} to="/products/addItem">
+                  Añadir
+                </Nav.Link>
+              ) : null}
+              {!user ? (
+                <Nav.Link as={Link} to="/login">
+                  Login
+                </Nav.Link>
+              ) : null}
+              {user ? (
+                <Nav.Link as={Link} to="/logout">
+                  Logout
+                </Nav.Link>
+              ) : null}
               <Nav.Link as={Link} to="/register">
                 Register
               </Nav.Link>
