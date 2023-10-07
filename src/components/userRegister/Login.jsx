@@ -4,6 +4,8 @@ import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../utils/AuthContext";
 import "./login.css";
 import * as yup from "yup";
+import { loginUser } from "../../utils/DataExchange";
+import { useState } from "react";
 
 const schema = yup
   .object({
@@ -14,6 +16,7 @@ const schema = yup
 
 const Login = () => {
   const navigate = useNavigate();
+  const [error, setError] = useState(null);
   const { login } = useAuth();
   const {
     register,
@@ -23,13 +26,13 @@ const Login = () => {
     resolver: yupResolver(schema),
   });
   const onSubmit = (data) => {
-    const user = {
-      ...data,
-      roles: ["admin"],
-    };
-
-    login(user, user.roles.includes("admin")); // Actualiza el estado de autenticación
-    navigate("/");
+    const userAuth = loginUser(data);
+    if (userAuth) {
+      login(userAuth, userAuth.roles.includes("admin")); // Actualiza el estado de autenticación
+      navigate("/");
+    } else {
+      setError("credenciales incorrectas");
+    }
   };
 
   return (
@@ -62,6 +65,7 @@ const Login = () => {
             </div>
             <p className="errors">{errors.password?.message}</p>
           </div>
+          <p className="errors">{error ? error : null}</p>
         </div>
         <button className="button" type="submit">
           Iniciar sesión

@@ -57,9 +57,6 @@ function Layout() {
               <Nav.Link as={Link} to="/register">
                 Register
               </Nav.Link>
-              {/* <Nav.Link href="#" disabled>
-                Link
-              </Nav.Link> */}
             </Nav>
             <Form className="d-flex">
               <Form.Control
