@@ -40,7 +40,7 @@ function Layout() {
                 Home
               </Nav.Link>
               {isAdmin ? (
-                <Nav.Link as={Link} to="/products/addItem">
+                <Nav.Link as={Link} to="/products/addProduct">
                   Añadir
                 </Nav.Link>
               ) : null}

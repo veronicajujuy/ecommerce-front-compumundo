@@ -1,12 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from "./components/Main";
 import Layout from "./components/Layout";
-import Login from "./components/Login";
+import Login from "./components/userRegister/Login";
 import Logout from "./utils/Logout";
-import AddItems from "./components/AddItems";
 import ItemDetail from "./components/ItemDetail";
 import ProtectedRoutes from "./utils/ProtectedRoutes";
 import { AuthProvider } from "./utils/AuthContext";
+import Register from "./components/userRegister/Register";
+import AddProducts from "./components/CrudProducts/AddProducts";
 
 function App() {
   return (
@@ -16,9 +17,10 @@ function App() {
           <Route element={<Layout />}>
             <Route path="/" element={<Main />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
             <Route element={<ProtectedRoutes />}>
               <Route path="/logout" element={<Logout />} />
-              <Route path="/products/addItem" element={<AddItems />} />
+              <Route path="/products/addProduct" element={<AddProducts />} />
             </Route>
             <Route path="/products/:id" element={<ItemDetail />} />
           </Route>

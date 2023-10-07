@@ -1,0 +1,94 @@
+.container-form {
+  background-color: #4c4d4e;
+  color: #fff;
+  padding: 50px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-login {
+  background-color: #232627;
+  color: #fff;
+  width: 80vw;
+  height: auto;
+  padding: 45px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px -1px rgba(217, 94, 217, 1);
+  border: #5913cd solid 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin-bottom: 25px;
+}
+.form-fields {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-left: 5%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.input-field-more {
+  flex-direction: row;
+}
+.fields {
+  text-align: left;
+  font-size: 16px;
+  margin-right: 25px;
+  padding: 3px;
+}
+.input-inside {
+  padding: 5px 15px;
+  border-radius: 8px;
+  border: none;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #5913cd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 25px;
+  align-self: flex-end;
+}
+.button:hover {
+  background-color: #300575;
+}
+
+.errors {
+  color: #ff003c;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.error-field {
+  border: 1px solid #ff003c;
+}
+
+.cache-memory {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+}
+
+.button2 {
+  padding: 5px 10px;
+  background-color: #5913cd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
